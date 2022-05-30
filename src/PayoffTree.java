@@ -13,6 +13,8 @@ public class PayoffTree {
     public PayoffTree() {
         root = new TreeNode(S0, 0, null);
     }
+    
+
 
     public double getValue() {
         double value = 0;
@@ -45,6 +47,7 @@ public class PayoffTree {
     public static void main(String[] args) {
         PayoffTree tree = new PayoffTree();
         System.out.println("Value is: " + tree.getValue());
+
     }
 }
 
